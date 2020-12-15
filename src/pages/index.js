@@ -1,3 +1,8 @@
+import Header from "../components/Header";
+
+
 export default function Index() {
-    return <h1>Test!</h1>
+    return (
+        <Header />
+    )
 }

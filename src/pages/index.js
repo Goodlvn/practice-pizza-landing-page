@@ -1,8 +1,12 @@
 import Header from "../components/Header";
+import Slideshow from "../components/Slideshow";
 
 
 export default function Index() {
     return (
-        <Header />
+        <div className="BigPoppaContainer">
+            <Header />
+            <Slideshow />
+        </div>
     )
 }

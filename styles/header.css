@@ -1,4 +1,13 @@
 .container {
-  background-color: black;
+  background-color: #1b1919;
+  color: #ffff;
+  border-top: 10px solid #ce001f;
   width: 100%;
+  min-height: 233px;
+}
+
+.headerLogo {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
 }

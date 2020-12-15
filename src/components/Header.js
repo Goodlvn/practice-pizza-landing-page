@@ -2,8 +2,13 @@
 
 export default function Header() {
     return (
-        <div className="container">
-            TEST A HEADER
-        </div>
+        <header className="container">
+            <img className="headerLogo" src="/images/meneds_logo.png" alt="meneds logo" />
+
+            {/* <ul>
+                <li>Menu</li>
+                <li>Location</li>
+            </ul> */}
+        </header >
     )
 }

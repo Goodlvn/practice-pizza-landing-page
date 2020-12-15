@@ -1,13 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 .container {
   background-color: #1b1919;
   color: #ffff;
   border-top: 10px solid #ce001f;
   width: 100%;
   min-height: 233px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
 }
 
 .headerLogo {
   display: block;
-  margin: 0 auto;
   width: 400px;
+  max-height: 7rem;
+}
+
+.navList {
+  position: absolute;
+  right: 5%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+}
+
+.navItem {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-family: bebas-neue-pro, sans-serif;
+  font-weight: 500;
+  letter-spacing: 5px;
+  font-size: 1.6rem;
+}
+
+.navLink {
+  margin: 5px;
+  padding: 0.25rem;
+}
+
+.navLink:hover {
+  border-bottom: 2px solid white;
+}
+
+@media screen and (max-width: 881px) {
+  .container {
+    min-height: 6rem;
+    flex: 1 1;
+    flex-flow: column nowrap;
+  }
+
+  .headerLogo {
+    max-width: 15rem;
+    margin: 1rem auto;
+  }
+
+  .navList {
+    position: relative;
+    margin: 0;
+    margin-bottom: 2.5rem;
+    padding: 0;
+    right: auto;
+  }
+
+  .navItem {
+    margin: 0;
+    padding: 0;
+  }
+
+  .navLink {
+    margin: 0;
+  }
 }

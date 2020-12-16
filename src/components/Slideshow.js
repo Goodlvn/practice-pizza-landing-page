@@ -13,7 +13,7 @@ export default function Slideshow() {
     }
 
     return (
-        <div className="slide-container">
+        <section className="slide-container">
             <Fade {...fadeProps}>
                 <div className="each-fade">
                     <div className="image-container">
@@ -26,6 +26,6 @@ export default function Slideshow() {
                     </div>
                 </div>
             </Fade>
-        </div>
+        </section>
     )
 }

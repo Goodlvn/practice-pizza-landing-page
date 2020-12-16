@@ -16,8 +16,9 @@ a {
 }
 
 .BigPoppaContainer {
-  height: 100vh;
   background-image: url(/images/bg1.jpg);
   background-repeat: repeat;
+  background-position: 0 50%;
   background-size: contain;
+  overflow: hidden;
 }

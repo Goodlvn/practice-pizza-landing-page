@@ -1,4 +1,6 @@
 
+import Topping from "./Topping";
+import { resolveHref } from "next/dist/next-server/lib/router/router";
 
 export default function MainMenu() {
     return (
@@ -13,6 +15,13 @@ export default function MainMenu() {
                     <h2 className="menuSubTitle">CRUST</h2>
                     <h4 className="menuText">ORIGINAL THIN • THICK CRUST</h4>
                 </div>
+            </div>
+
+            <hr className="contentLine" />
+
+            <h2 className="menuSubTitle">FRESH TOPPINGS</h2>
+            <div style={{ flexDirection: "column" }}>
+                <Topping />
             </div>
             <hr className="contentLine" />
         </div>

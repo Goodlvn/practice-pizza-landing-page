@@ -1,6 +1,7 @@
 .menuContainer {
   font-family: Oswald, sans-serif;
   padding: 0 1rem;
+  display: flex;
 }
 
 .menuContainer hr {
@@ -12,6 +13,8 @@
 }
 
 .mainMenuContainer {
+  /* max-width: 80%; */
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -70,4 +73,90 @@
 .menuListItem span {
   padding-left: 5px;
   font-size: 0.75rem;
+}
+
+.pizzaTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.pizzaTable thead tr th {
+  padding: 0;
+  width: 10%;
+}
+
+.pizzaTable tbody tr th {
+  border-bottom: 1px solid #d3af7e;
+  margin: 0 2rem;
+  text-align: left;
+  width: 20%;
+  padding: 0.8rem 0;
+}
+
+.pizzaTable tbody tr td {
+  border-bottom: 1px solid #d3af7e;
+  text-align: center;
+  position: relative;
+}
+
+.menuMarkerList {
+  display: none;
+}
+
+@media screen and (max-width: 881px) {
+  .pizzaTable thead tr th {
+    display: none;
+  }
+
+  .menuMarkerList {
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+  }
+
+  .menuMarkerList h2 {
+    position: relative;
+    margin: 0;
+    margin-top: 0.5rem;
+    padding: 0;
+  }
+
+  .menuMarkerList h2:after {
+    position: absolute;
+    transform: translate(225%, 25%);
+    font-size: 0.75rem;
+    color: #ce001d;
+  }
+
+  .pizzaTable tbody td:after {
+    position: absolute;
+    top: -1rem;
+    left: 50%;
+    transform: translate(-50%);
+    color: #d3af7e;
+  }
+
+  .displayA:after {
+    content: "A";
+  }
+
+  .displayB:after {
+    content: "B";
+  }
+  .displayC:after {
+    content: "C";
+  }
+  .displayD:after {
+    content: "D";
+  }
+  .displayE:after {
+    content: "E";
+  }
+  .displayF:after {
+    content: "F";
+  }
 }

@@ -1,5 +1,6 @@
-
 import Topping from "./Topping";
+import PriceTable from "./PriceTable";
+import MenuMarkers from "./MenuMarkers";
 
 export default function MainMenu() {
     return (
@@ -22,6 +23,12 @@ export default function MainMenu() {
             <div style={{ flexDirection: "column" }}>
                 <Topping />
             </div>
+
+            <hr className="contentLine" />
+
+            <MenuMarkers />
+            <PriceTable />
+
             <hr className="contentLine" />
         </div>
     )

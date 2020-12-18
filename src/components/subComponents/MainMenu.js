@@ -29,7 +29,11 @@ export default function MainMenu() {
             <MenuMarkers />
             <PriceTable />
 
-            <hr className="contentLine" />
-        </div>
+            <div className="shortContainer">
+                <hr className="contentLine" />
+                <p>ONE LARGE SLICE OF CHEESE PIZZA THIN CRUST: 235 CALORIES. ONE LARGE SLICE OF CHEESE PIZZA THICK CRUST: 237 CALORIES. ADD TOPPINGS TO CHEESE PIZZA FOR CALORIE COUNT. AMOUNTS ARE FOR ONE LARGE SLICE ON THIN CRUST WITH RED SAUCE.</p>
+            </div>
+
+        </div >
     )
 }

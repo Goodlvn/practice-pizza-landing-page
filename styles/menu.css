@@ -18,10 +18,6 @@
   text-align: center;
 }
 
-.menuText {
-  font-weight: 400;
-}
-
 .menuTitle {
   display: block;
   font-size: 2.8rem;
@@ -36,6 +32,7 @@
 
 .menuText {
   font-size: 1.15rem;
+  font-weight: 400;
 }
 
 .baseChoicesContainer {
@@ -103,6 +100,12 @@
 
 .menuMarkerList {
   display: none;
+}
+
+.shortContainer {
+  width: 80%;
+  margin: 3.5rem auto;
+  font-size: 1.15rem;
 }
 
 @media screen and (max-width: 881px) {

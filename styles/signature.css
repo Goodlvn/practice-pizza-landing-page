@@ -65,3 +65,10 @@
     margin: 0;
   }
 }
+
+@media screen and (max-width: 560px) {
+  .sigTitle {
+    margin-top: 7rem;
+    font-size: 1.75rem;
+  }
+}

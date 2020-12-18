@@ -2,7 +2,7 @@
 export default function Signiture() {
     return (
         <section className="signatureContainer">
-            <h2 className="menuTitle">SIGNATURE SERIES</h2>
+            <h2 className="menuTitle sigTitle">SIGNATURE SERIES</h2>
 
             <div className="pizzaTypeContainer">
                 <div className="column">

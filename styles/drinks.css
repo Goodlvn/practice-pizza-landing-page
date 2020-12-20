@@ -1,0 +1,10 @@
+.drinksContainer {
+  background-image: url(/images/bg2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 3rem;
+  padding-bottom: 4rem;
+  font-family: Oswald, sans-serif;
+  color: white;
+  height: 800px;
+}

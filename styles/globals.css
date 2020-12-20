@@ -22,3 +22,11 @@ a {
   background-size: contain;
   overflow: hidden;
 }
+
+.contentLine {
+  margin: 2.5rem 0;
+  border: none;
+  height: 3px;
+  color: #d3af7e;
+  background-color: #d3af7e;
+}

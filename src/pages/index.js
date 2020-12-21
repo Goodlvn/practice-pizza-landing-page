@@ -4,6 +4,7 @@ import Menu from "../components/Menu";
 import Signature from "../components/Signiture";
 import Featured from "../components/Featured";
 import Drinks from "../components/Drinks";
+import Location from "../components/Location";
 
 
 export default function Index() {
@@ -15,6 +16,7 @@ export default function Index() {
             <Signature />
             <Featured />
             <Drinks />
+            <Location />
         </div>
     )
 }

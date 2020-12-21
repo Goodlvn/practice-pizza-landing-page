@@ -6,7 +6,7 @@ export default function Featured() {
                     <img className="featuredImages" src="/images/bites.png" alt="cheesy bread" />
                 </div>
                 <ul className="featuredDetailsContainer">
-                    <h2 className="featuredSubTitle menuSubTitle hasAfter">SIDES</h2>
+                    <h2 className="featuredSubTitle menuSubTitle">SIDES</h2>
                     <li>GARLIC BREAD 5.00</li>
                     <li>GARLIC CHEESE BREAD 6.00</li>
                     <li>GARLIC CHEESY BITES 6.00</li>

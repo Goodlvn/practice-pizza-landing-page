@@ -50,6 +50,7 @@
 }
 
 .featuredDetailsContainer li {
+  flex-wrap: no-wrap;
   list-style: none;
 }
 

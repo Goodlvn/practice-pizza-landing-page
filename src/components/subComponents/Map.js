@@ -2,15 +2,14 @@ import { useState, useCallback } from "react";
 import { GoogleMap, LoadScript } from '@react-google-maps/api';
 
 const containerStyle = {
-    width: '400px',
-    height: '400px'
+    width: '100%',
+    height: '100%'
 };
 
 const center = {
-    lat: -3.745,
-    lng: -38.523
+    lat: 33.83314762860516,
+    lng: -118.16037258895552
 };
-
 
 export default function Map() {
     const [map, setMap] = useState(null)
@@ -32,7 +31,7 @@ export default function Map() {
             <GoogleMap
                 mapContainerStyle={containerStyle}
                 center={center}
-                zoom={10}
+                zoom={18}
                 onLoad={onLoad}
                 onUnmount={onUnmount}
             >

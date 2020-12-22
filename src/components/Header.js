@@ -6,12 +6,12 @@ export default function Header() {
 
             <ul className="navList">
                 <li className="navItem">
-                    <a className="navLink" href="#">
+                    <a className="navLink" href="#menu">
                         Menu
                     </a>
                 </li>
                 <li className="navItem">
-                    <a className="navLink" href="#">Location</a>
+                    <a className="navLink" href="#location">Location</a>
                 </li>
             </ul>
         </header >

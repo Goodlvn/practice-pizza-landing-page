@@ -4,7 +4,7 @@ import MenuMarkers from "./MenuMarkers";
 
 export default function MainMenu() {
     return (
-        <div className="mainMenuContainer">
+        <div id="menu" className="mainMenuContainer">
             <h2 className="menuTitle hasAfter">CREATE YOUR OWN PIZZA</h2>
             <div className="baseChoicesContainer">
                 <div>

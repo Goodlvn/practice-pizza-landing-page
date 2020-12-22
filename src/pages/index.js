@@ -5,6 +5,7 @@ import Signature from "../components/Signiture";
 import Featured from "../components/Featured";
 import Drinks from "../components/Drinks";
 import Location from "../components/Location";
+import Footer from "../components/Footer";
 
 
 export default function Index() {
@@ -17,6 +18,7 @@ export default function Index() {
             <Featured />
             <Drinks />
             <Location />
+            <Footer />
         </div>
     )
 }

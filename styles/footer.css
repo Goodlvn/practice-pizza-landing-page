@@ -1,0 +1,42 @@
+footer {
+  background-color: #1b1919;
+  padding: 4.25rem 1rem;
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Oswald, sans-serif;
+}
+
+.footerImage {
+  display: block;
+  width: 400px;
+  max-height: 7rem;
+}
+
+.newsletterButton {
+  background-color: white;
+  max-width: 13rem;
+  padding: 0.25rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.newsletterButton:hover {
+  background-color: #d3af7e;
+}
+
+.newsletterButton a:hover {
+  text-decoration: underline;
+}
+
+.socialIconsContainer {
+  padding-top: 1rem;
+}
+
+.socialIconsContainer a {
+  padding-right: 1rem;
+}

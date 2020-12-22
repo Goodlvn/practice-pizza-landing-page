@@ -6,6 +6,7 @@ import "../../styles/signature.css";
 import "../../styles/featured.css";
 import "../../styles/drinks.css";
 import "../../styles/location.css";
+import "../../styles/footer.css";
 
 function MyApp({ Component, pageProps }) {
     return <Component {...pageProps} />

@@ -2,7 +2,7 @@ import Map from "./subComponents/Map";
 
 export default function Location() {
     return (
-        <section className="locationContainer">
+        <section id="location" className="locationContainer">
             <h2 className="menuTitle hasAfter">LOCATION</h2>
             <div className="locationContent">
                 <div className="mapContext">
